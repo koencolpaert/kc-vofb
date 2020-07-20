@@ -3,4 +3,6 @@
 *** TODO Contact Bart Cober voor DDOS                               :netwerk:
 *** STARTED Uitzoeken NIST Cybersecurity Framework                     :ciso:
 *** TODO Plan analyst call "Cloud in government"                    :Gartner:
-    DEADLINE: <2020-07-24 Fri>
+    SCHEDULED: <2020-07-24 Fri>
+    
+*** TODO Digital ethics/return workspace                               :ciso:
