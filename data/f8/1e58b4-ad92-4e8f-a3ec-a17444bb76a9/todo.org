@@ -1,0 +1,5 @@
+* TODO
+
+** Gartner [0/1]
+*** TODO Gartner doc voorbereiden
+    DEADLINE: <2020-07-17 Fri>

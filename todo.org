@@ -1,0 +1,13 @@
+#+SEQ_TODO: TODO STARTED WAITING CANCELLED DONE
+* Te doen
+** Netwerk [2/3]
+*** DONE Upgrade Pulse Secure opvolgen                                :Aimad:
+*** TODO Contact Bart Cober voor DDOS
+*** DONE Aimad status DMZ Splunk                                      :Aimad:
+    DEADLINE: <2020-07-17 Fri>
+** Gartner [1/1]
+*** DONE Gartner doc voorbereiden
+    DEADLINE: <2020-07-17 Fri>
+** CISO
+*** STARTED Uitzoeken NIST Cybersecurity Framework
+*** DONE Missie/Visie voor strategiedoc

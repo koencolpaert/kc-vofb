@@ -1,0 +1,194 @@
+% Created 2020-07-20 Mon 08:59
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Koen Colpaert, CISO}
+\date{\today}
+\title{Information Security On A Page}
+\hypersetup{
+ pdfauthor={Koen Colpaert, CISO},
+ pdftitle={Information Security On A Page},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Doel}
+\label{sec:org2098946}
+Overzicht van de security en risk strategie op één enkele pagina met verwijzing naar de risico's, mogelijkeden, middelen en mensen van de organisatie met als doel deze strategie te communiceren 
+naar de stakeholders. Verder bevat het document ook richtlijnen voor security architecten, ontwikkelaars en beheerders om tactische invulling te geven aan de strategische doelstellingen.
+Centraal in dit document is de onderlinge relatie tussen de organisatiedoelstellingen, technologische risico's en SRM maatregelen.
+
+Dit document is geen afgewerkt eindproduct op zich en dient gebruikt te worden als startpunt voor verdere, diepgaande discussies over security en risk management. Het kan ook gebruikt worden als
+verantwoording voor inspanningen op het vlak van business continuity, herstelmaatregelen investeringen in technologie.
+
+\section{Aanpak}
+\label{sec:orgcca7520}
+Op het hoogste niveau geeft dit document een overzicht van de samenhang tussen deze doelstellingen, risico's en maatregelen. Nadien worden de verschillende maatregelen inzake risicobeheersing besproken:
+\begin{itemize}
+\item Beschrijving van de specifieken relevante samenhang tussen risico's en organisatiedoelstellingen
+\item Mapping van de principes op de risico's
+\item Voorbereiding voor de tactische implementatie van het framework.
+\end{itemize}
+
+De strategie dient een antwoord te formuleren op de volgende aspecten:
+\begin{itemize}
+\item SRM verantwoordelijken moeten een goed inzicht hebben op de organisatiedoelstellingen
+\item SRM verantwoordelijken hebben de belangrijkste technologie-gerelateerde risico's voor de organisatiedoelstellingen in kaart gebracht
+\item De SRM-aanpak dient uitgewerkt te worden aan de hand van een veelvuldig gebruikt raamwerk en oplossingen bieden voor de geïndentificeerde risico's.
+\end{itemize}
+
+\section{Informatie Strategie}
+\label{sec:org422b12e}
+\subsection{Wie zijn we?}
+\label{sec:org83d6a04}
+Centraal in dit onderdeel staat onze missie en visie als organisatie. Voor het departement Financiën en Begroting luidt de visie: "Het Departement Financiën en Begroting wil het 
+financiële, fiscale, budgettaire en boekhoudkundige kenniscentrum van en voor de Vlaamse overheid zijn om zo van Vlaanderen een duurzaam financieel gezonde en performante regio te maken."
+
+Om deze visie en missie te bereiken heeft DFB in het verleden zowel beleids- als organisatiedoelstellingen gedefiniëerd. Het SO heeft hieruit de belangrijkste gehaald om de doelstelling "het" kenniscentrum
+te worden en Vlaanderen als voorbeeldregio op de kaart te zetten waar te maken, specifiek vanuit het perspectief van security. Deze doelstellingen zijn:
+\begin{itemize}
+\item Houdbare openbare financiën realiseren in een Europees kader
+\item Een coherent fiscaal kader ontwikkelen
+\item Instaan voor het correct innen van belastingen
+\item Optimalisatie van de financiële situatie van de Vlaamse overheid
+\item Een efficiënte administratie zijn
+\item Kwalitatief en efficiënt archief-, documentatie- en informatiebeheer
+\end{itemize}
+
+\subsection{Welke risico's hebben we?}
+\label{sec:orge569473}
+De input voor dit onderdeel komt ideaal vanuit een risk assessment of vanuit het IT risicoregister. Gartner beveelt aan deze lijst kort en bondig te houden wat ook aansluit bij de CISO insteek om
+doelstellingen te formuleren die op korte termijn tot haalbare resultaten kunnen lijden voor het SIEM/SOC-team en de visibiliteit naar de business te verhogen.
+
+Duidelijk identificeerbare risico's zijn:
+\begin{itemize}
+\item Regelgeving en naleving
+\item Onvermogen om digitale bedrijfsprojecten bij te houden
+\item Risico opkomende technologie te missen
+\item Risico van derden
+\item Beschikbaarheid kritische systemen
+\end{itemize}
+
+\subsection{Hoe pakken we ze aan?}
+\label{sec:orgfb70dd2}
+Dit onderdeel bevat de grote lijnen van het risicobeheersingsprogramma. Er dient een duidelijke link te zijn met de risico's zowel als de organisatiedoelstellingen.
+\begin{itemize}
+\item Implementatie van een proactief risicobeheer
+\item Bescherming van onze informatie
+\item Implementatie van een robuust crisis- en incidentbeheer inclusief beheersmaatregelen
+\item Verbeteren van de beschikbaarheid en herstelbaarheid van de kritische systemen
+\end{itemize}
+
+\section{Risico Landschap}
+\label{sec:org7cfc5c1}
+Gebaseerd op de geïdentificeerde risico's en onze aanpak gaan we het nodige doen zodat we onze bedrijfsdoelstellingen kunnen bereiken en de risicoblootstelling beperken tot binnen de grenzen van 
+onze risicobereidheid.
+\begin{itemize}
+\item \textbf{Regelgeving en naleving}: Als we ons niet aan de regels houden, zullen we boetes krijgen, een negatieve perceptie bij het publiek, hogere nalevingskosten krijgen en het vertrouwen verliezen van het politiek niveau..
+\item \textbf{Onvermogen om digitale bedrijfsprojecten bij te houden}: Als we de digitale doelen van onze organisatie niet kunnen ondersteunen, lopen we achter op de andere bestuursniveaus, krijgen we de reputatie dat we niet met de tijd (kunnen) veranderen, zien we hogere kosten als gevolg van een inhaalslag achteraf en verliezen we het vertrouwen van burger en politiek.
+\item \textbf{Risico opkomende technologie te missen}: Als we risico's negeren als gevolg van opkomende technologie die niet wordt begrepen of beheerd, zal dit ons ervan weerhouden te groeien als organisatie, waardoor we 'klanten' (burgers en politiek) van de volgende generatie verliezen die steun van deze nieuwe technologie zullen 'verwachten' en het gevaar van onbekende risico's laten toenemen.
+\item \textbf{Risico van derden}: Als we ons uitgebreide ecosysteemrisico, het risico van de digitale toeleveringsketen en de uitgebreide risico's op het gebied van regelgeving en naleving niet effectief beheren, zullen aansprakelijkheid, afname van vertrouwen, gebrek aan zichtbaarheid en minder controle / zichtbaarheid leiden tot een lager vertrouwen in ons vermogen om bedrijfsrisico's te beheersen.
+\item \textbf{Beschikbaarheid van onze kritische systemen}: Als we niet op inzetten op het beschikbaar houden van onze systemen in alle omstandigheden, zullen we niet kunnen herstellen in geval van uitval, wat resulteert in verloren inkomsten (VLABEL), downtime, burgers die niet geholpen kunnen worden - kan intern, extern, per ongeluk of kwaadwillig zijn.
+\end{itemize}
+
+\section{Risico Aanpak}
+\label{sec:org602bb91}
+In de vorige hoofdstukken lag de nadruk op de doelstellingen en de risico's, in dit onderdeel wordt voor het eerst naar de praktische kant van de zaak gekeken ('Hoe gaan we deze principes omzetten in de praktijk?').
+Er dient ook op het vlak van security nagedacht te worden over een missie en visie en de nodige objectieven moeten worden uitgewerkt zodat we kunnen overgaan tot actie. Dit onderdeel is grotendeels gebaseerd op de 5 domeinen van het NIST CSF:
+\begin{itemize}
+\item \textbf{Identificeren}: Weten wat we hebben, wat belangrijk is en wat we doen.
+\item \textbf{Beschermen}: Nemen van efficiënte en effectieve beschermingsmaatregelen.
+\item \textbf{Detecteren}: Opsporen van die zaken die we niet tijdig konden voorkomen.
+\item \textbf{Reageren}: Prioretiseren en reageren op gedetecteerde incidenten.
+\item \textbf{Herstellen}: Zo snel als mogelijk/haalbaar alles terug in een operationele staat brengen.
+\end{itemize}
+
+\section{SRM Doelstellingen}
+\label{sec:org744cb94}
+\textbf{Missie}
+Het Security Office van Financiën en Begroting werkt samen met de entiteiten van departement en agentschap om systeem- en netwerkbronnen te beveiligen en de vertrouwelijkheid van informatie over en van burgers en organisatie te beschermen.
+
+\textbf{Visie}
+Om deze missie tot een goed einde te brengen zal het SO:
+\begin{itemize}
+\item Processen, procedures en richtlijnen ontwikkelen voor de bescherming van vertrouwelijke informatie
+\item Veiligheidsrisico's identificeren op het vlak van informatie en systemen en de nodige maatregelen nemen om de risico's te beperken tot het aanvaarde niveau
+\item Op basis van regelgeving en goede praktijken beveiligingsvereisten en baselines vastleggen en toezien op de naleving ervan
+\item In overleg met de andere entiteiten de beveiligingsproblemen en processen onderzoeken
+\item Een information security strategie en architectuur ontwikkelen in samenspraak met informatie- en applicatiebeheerders
+\item Erop toezien dat de nodige incident response en disaster recovery processen uitgewerkt zijn én worden toegepast
+\item Een antwoord formuleren op en oplossen van security incidenten
+\item Door toegepaste communicatie en opleiding de awareness bij alle betrokkenen verhogen
+\end{itemize}
+
+Hier wordt de onderlinge samenhang duidelijk tussen de principes, doelstellingen en de onderdelen van het raamwerk:
+\begin{itemize}
+\item Identificeren <> Implementatie van een proactief risicobeheer
+\item Beschermen <> Bescherming van onze informatie
+\item Detecteren <> Voorbereiden op nieuwe technologieën
+\item Reageren <> Verbeteren van de beschikbaarheid en herstelbaarheid van de kritische systemen
+\item Herstellen <> Implementatie van een robuust crisis- en incidentbeheer inclusief beheersmaatregelen
+\end{itemize}
+
+\section{Relatie Tactiek-Strategie}
+\label{sec:org8d766da}
+In het laatste onderdeel van dit document wordt de link gelegd tussen de hoger niveaus en de tactische uitvoering.
+
+\begin{itemize}
+\item Identificeren > Weten wat we hebben, wat belangrijk is en wat we doen > Asset Management, Bedrijfsprocessen, Risk Assessment, Governance, Risk Management Strategie
+\item Beschermen > Stoppen wat we moeten stoppen; elementaire blokkering en aanpak > Identity management, Awareness, Data security, Informatiebeveiliging, Beveiligingstechnologie
+\item Detecteren > Snel, eenvoudig en efficiënt vinden wat we moeten stoppen > Anomalieën, incidenten, monitoring
+\item Reageren > Response planning, analyse, beperking, verbeterprocessen, communicatie
+\item Herstellen > Terugkeer naar een goede staat, lessen trekken en streven naar continue verbetering > herstelplannen, communicatie
+\end{itemize}
+
+Om het raamwerk optimaal te benutten, moeten we deze processen implementeren die ons zullen helpen schaalbare, herhaalbare gedragspatronen en acties op te bouwen om ons beveiligings- en risicobeheerprogramma in de loop van de tijd te verbeteren.
+
+
+\section{Lijst afkortingen}
+\label{sec:org0926fa7}
+\begin{center}
+\begin{tabular}{ll}
+\hline
+Afkorting & Verklaring\\
+\hline
+CISO & Chief Information Security Officer\\
+CSF & Cyber Security Framework\\
+DFB & Departement Financiën en Begroting\\
+NIST & National Institute of Standards and Technology\\
+SIEM & Security Information and Event Management System\\
+SO & Security Office\\
+SOC & Security Operation Center\\
+SRM & Security and Risk Management\\
+VLABEL & Vlaamse Belastingdienst\\
+\hline
+\end{tabular}
+\end{center}
+
+
+\section{Lijst bronnen}
+\label{sec:org93dd5b2}
+
+\begin{itemize}
+\item G00368015-Toolkit: Information Security Strategy on a Page - \href{https://www.gartner.com/document/3892398?ref=cust\_reco\_sdemail\&docType=RESEARCH}{Link}
+\item DFB Ondernemingsplan 2016 - \href{http://fb.vonet.be/organisatie/departement-fb/ondernemingsplan}{Link}
+\end{itemize}
+\end{document}

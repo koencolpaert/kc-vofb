@@ -1,0 +1,13 @@
+* Te doen  [4/6]
+** DONE Mail NTT                                                    :netwerk:
+   SCHEDULED: <2020-07-02 Thu>
+** TODO Opvolging licenties netwerk                                 :netwerk:
+   DEADLINE: <2020-07-27 Mon>
+** DONE Mail Mohammed Sharepoint                                   :security:
+   SCHEDULED: <2020-07-02 Thu>
+** TODO Sharepoint overleg Mohammed                                :security:
+   SCHEDULED: <2020-07-03 Fri>
+** DONE Out of office
+   SCHEDULED: <2020-07-03 Fri>
+** DONE Map export > Alex
+   SCHEDULED: <2020-07-03 Fri>
