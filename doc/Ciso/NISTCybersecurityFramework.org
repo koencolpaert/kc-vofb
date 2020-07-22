@@ -1,7 +1,24 @@
-#+TITLE: Nist Cybersecurity Framework
+#+TITLE: NIST Cybersecurity Framework
+#+AUTHOR: Koen Colpaert
 
 * Algemeen
+Het NIST Cybersecurity Framework voorziet in een raamwerk van richtlijnen om organisaties bij te staan in de preventie, detectie en het beantwoorden van cyberaanvallen. Het biedt een taxonomie op hoog niveau van resultaten op het gebied van cyberbeveiliging en een methodologie om die resultaten te beoordelen en te beheren. Oorspronkelijk was het raamwerk vooral gericht op de beheerders van kritische systemen maar vandaag de dag wordt het vooral ingezet om procatief te zijn op het vlak van risicomanagement. Niettegenstaande het raamwerk pas in 2018 werd gelanceerd -en momenteel op versie 1.1 staat- heeft een onderzoek naar de adoptie van beveiligingskaders aangetoond dat 70% van de ondervraagde organisaties het NIST-raamwerk zien als een populaire best practice voor computerbeveiliging, maar velen merken op dat het aanzienlijke inspanning vereist qua implementatie.
 
-* Functies en categorieën
+Het raamwerk is opgedeeld in 3 grote stukken: kern (framework core), lagen (tiers) en profielen (profile). De "Framework Core" bevat een scala aan activiteiten, resultaten en referenties over aspecten en benaderingen van cyberbeveiliging. De "framework implementation tiers" worden door een organisatie gebruikt om voor zichzelf en partners te verduidelijken hoe zij tegen cyberbeveiligingsrisico's en de mate van beheersaanpak aankijken. Een "framework profile" is een lijst met resultaten die een organisatie heeft gekozen uit de categorieën en subcategorieën, op basis van haar behoeften en risicobeoordelingen.
+
+Een organisatie begint doorgaans met het gebruik van het raamwerk om een "As-is Profiel" te ontwikkelen waarin haar cyberbeveiligingsactiviteiten worden beschreven en welke resultaten zij behaalt. Vervolgens kan het een "doelprofiel" ontwikkelen of een basisprofiel aannemen dat is afgestemd op de sector of type organisatie. Vervolgens kan het stappen definiëren om over te schakelen van het huidige profiel naar het doelprofiel.
+
+* Functies en categoriën
+
 
 * Relatie NIST-ISO27001
+
+* Bronnen
+- [[https://en.wikipedia.org/wiki/NIST_Cybersecurity_Framework][NIST Cybersecurity Framework (Wikipedia)]]
+
+* Afkortingen
+
+| Afkorting | Beschrijving                                   |
+|-----------+------------------------------------------------|
+| NIST      | National Institute Of Standards and Technology |
+|           |                                                |
