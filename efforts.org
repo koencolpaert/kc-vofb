@@ -16,6 +16,11 @@ KC Efforts
 
 
 Efforts
+* <2020-07-22 Wed>
+** InfoSec PM
+   :LOGBOOK:
+   CLOCK: [2020-07-22 Wed 10:16]
+   :END:
 * <2020-07-20 Mon>
 ** InfoSec PM
    :LOGBOOK:
