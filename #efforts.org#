@@ -1,0 +1,48 @@
+
+KC Efforts
+
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2020-07-22 Wed 14:32]
+| Headline              |    Time |      |
+|-----------------------+---------+------|
+| *Total time*          | *12:14* |      |
+|-----------------------+---------+------|
+| <2020-07-22 Wed>      |    4:16 |      |
+| \_  InfoSec PM        |         | 4:16 |
+| <2020-07-20 Mon>      |    7:58 |      |
+| \_  InfoSec PM        |         | 2:12 |
+| \_  Gartner EITL Call |         | 1:16 |
+| \_  Mail backlog      |         | 4:30 |
+#+END:
+
+
+Efforts
+* <2020-07-22 Wed>
+** InfoSec PM
+   :LOGBOOK:
+   CLOCK: [2020-07-22 Wed 10:16]--[2020-07-22 Wed 14:32] =>  4:16
+   :END:
+* <2020-07-20 Mon>
+** InfoSec PM
+   :LOGBOOK:
+   CLOCK: [2020-07-20 Mon 13:03]--[2020-07-20 Mon 15:15] =>  2:12
+   :END:
+** Gartner EITL Call
+   :LOGBOOK:
+   CLOCK: [2020-07-20 Mon 10:59]--[2020-07-20 Mon 12:15] =>  1:16
+   :END:
+** Mail backlog
+   :LOGBOOK:
+   CLOCK: [2020-07-20 Mon 09:07]--[2020-07-20 Mon 10:41] =>  1:34
+   :END:
+   15:40]--[2020-07-19 Sun 17:10] =>  1:30
+   CLOCK: [2020-07-19 Sun 14:30]--[2020-07-19 Sun 15:01] =>  0:31
+   CLOCK: [2020-07-19 Sun 14:18]--[2020-07-19 Sun 14:26] =>  0:08
+   CLOCK: [2020-07-19 Sun 10:25]--[2020-07-19 Sun 12:25] =>  2:00
+   :EN
+BOOK:
+   CLOCK: [2020-07-17 Fri 10:44]--[2020-07-17 Fri 11:01] =>  0:17
+   :END:
+** WP Issues
+   :LOGBOOK:
+   CLOCK: [2020-07-17 Fri 09:31]--[2020-07-17
