@@ -1,8 +1,9 @@
 #+SEQ_TODO: TODO STARTED WAITING CANCELLED DONE
-* Te doen [1/5]
+* Te doen [2/6]
 *** TODO Contact Bart Cober voor DDOS                               :netwerk:
 *** STARTED Uitzoeken NIST Cybersecurity Framework                     :ciso:
 *** TODO Plan analyst call "Cloud in government"                    :Gartner:
     SCHEDULED: <2020-07-24 Fri>
 *** TODO Digital ethics/return workspace                               :ciso:
 *** DONE Security patches WP: Jean-Claude/Danny :ciso:ARCHIVE:
+*** DONE Meeting met Veronique overdracht voor verlof :ARCHIVE:

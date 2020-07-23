@@ -1,0 +1,27 @@
+#+TITLE: Netwerkoverleg meeting reports & notes
+#+AUTHOR: Koen Colpaert
+#+OPTIONS: toc:nil
+
+* <2020-07-23 Thu>
+** Aanwezigen
+| Naam            | Dienst           |
+|-----------------+------------------|
+| Koen Colpaert   | Staf             |
+| Dries Meerten   | Systemen         |
+| Maarten Massart | Netwerk/Systemen |
+
+** Changelog voor Pulse Secure aanpassingen? :aimad:
+*** TODO Status vragen na verlof Aimad
+DEADLINE: <2020-07-27 Mon>
+** Wifi Aalst
+De lijn en router zijn er nog steeds omdat Dries in opdracht van PVDN deze in de koelkast moest zetten voor geval VLABEL van idee veranderde. Lijn en router zijn van Proximus en het betreft een ADSL-lijn met Bbox router die indertijd werd aangevraagd voor gebruik door David Van Herreweghe.
+*Acties en vragen;*
+- kan deze lijn een upgrade krijgen naar VDSL of Explore?
+- wie heeft paswoord voor de router? Kristof had blijkbaar enkel leesrechten.
+- het "bezoekersnetwerk" is aangemaakt op deze router met dezelfde SSID als bij VO.
+- kunnen we deze router op de access points zetten? Controller zou 2 connecties hebben.
+- kan met bestaande hardware (router/lijn) de hele site van wifi voorzien worden?
+- hoe worden in huidige situatie de IP-adressen verdeeld?
+- opzoeken documentatie Davinsi/Annelies op M-schijf en mailbox (AP iedereen)
+** Netwerk issue lijst
+Geen noemenswaardige tickets
