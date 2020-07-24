@@ -16,6 +16,15 @@ KC Efforts
 
 
 Efforts W30
+* <2020-07-24 Fri>
+** WP Issues
+:LOGBOOK:
+CLOCK: [2020-07-24 Fri 09:29]--[2020-07-24 Fri 09:46] =>  0:17
+:END:
+** Overdracht Veronique
+:LOGBOOK:
+CLOCK: [2020-07-24 Fri 10:58]--[2020-07-24 Fri 11:58] =>  1:00
+:END:
 * <2020-07-23 Thu>  Vervanging Peter
 :LOGBOOK:
 CLOCK: [2020-07-23 Thu 13:29]--[2020-07-23 Thu 14:01] =>  0:32
@@ -48,6 +57,3 @@ CLOCK: [2020-07-23 Thu 08:59]--[2020-07-23 Thu 09:12] =>  0:13
 BOOK:
    CLOCK: [2020-07-17 Fri 10:44]--[2020-07-17 Fri 11:01] =>  0:17
    :END:
-** WP Issues
-   :LOGBOOK:
-   CLOCK: [2020-07-17 Fri 09:31]--[2020-07-17
