@@ -1,21 +1,30 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-* #+CAPTION: Clock summary at [2020-07-23 Thu 09:47]
-| Headline              |   Time |      |
-|-----------------------+--------+------|
-| *Total time*          | *8:11* |      |
-|-----------------------+--------+------|
-| <2020-07-23 Thu>      |   0:13 |      |
-| \_  Vervanging Peter  |        | 0:13 |
-| <2020-07-20 Mon>      |   7:58 |      |
-| \_  InfoSec PM        |        | 2:12 |
-| \_  Gartner EITL Call |        | 1:16 |
-| \_  Mail backlog      |        | 4:30 |
+#+CAPTION: Clock summary at [2020-07-30 Thu 14:39]
+| Headline                           |    Time |      |
+|------------------------------------+---------+------|
+| *Total time*                       | *12:19* |      |
+|------------------------------------+---------+------|
+| <2020-07-30 Thu>                   |    0:19 |      |
+| \_  test                           |         | 0:19 |
+| <2020-07-24 Fri>                   |    1:17 |      |
+| \_  WP Issues                      |         | 0:17 |
+| \_  Overdracht Veronique           |         | 1:00 |
+| <2020-07-23 Thu>  Vervanging Peter |    2:45 |      |
+| <2020-07-20 Mon>                   |    7:58 |      |
+| \_  InfoSec PM                     |         | 2:12 |
+| \_  Gartner EITL Call              |         | 1:16 |
+| \_  Mail backlog                   |         | 4:30 |
 #+END:
 
 
 Efforts W30
+* <2020-07-30 Thu>
+** test
+:LOGBOOK:
+CLOCK: [2020-07-30 Thu 14:20]--[2020-07-30 Thu 14:39] =>  0:19
+:END:
 * <2020-07-24 Fri>
 ** WP Issues
 :LOGBOOK:
@@ -33,9 +42,6 @@ CLOCK: [2020-07-23 Thu 08:59]--[2020-07-23 Thu 09:12] =>  0:13
 :END:
 * <2020-07-22 Wed>
 ** InfoSec PM
-   :LOGBOOK:
-   CLOCK: [2020-07-22 Wed 10:16]
-   :END:
 * <2020-07-20 Mon>
 ** InfoSec PM
    :LOGBOOK:
