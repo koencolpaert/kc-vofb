@@ -1,11 +1,12 @@
 #+SEQ_TODO: TODO DONE STARTED WAITING CANCELLED
-* Te doen [4/7]
+* Te doen [0/8]
 *** TODO Contact Bart Cober voor DDOS                               :netwerk:
-*** DONE Plan analyst call "Cloud in government" :Gartner:ARCHIVE:
-DEADLINE: <2020-07-24 Fri>
-*** DONE Uitzoeken NIST Cybersecurity Framework :ciso:ARCHIVE
 *** TODO Digital ethics/return workspace                               :ciso:
-*** DONE Security patches WP: Jean-Claude/Danny :ciso:ARCHIVE:
-*** DONE Meeting met Veronique overdracht voor verlof :ARCHIVE:
 *** TODO Cleane versie maken efforts.org :orgmode:
+SCHEDULED: <2020-08-03 Mon>
+*** WAITING Werklastmeting op interdienstenoverleg :staf:
+*** DONE Inplannen cloud call :gartner:ARCHIVE:
+*** TODO Certificaat voor Tom :ciso:
+*** TODO Policy useraccounts uitwerken :ciso:
+*** TODO Matomo doc bespreken met Tia :ciso:
 SCHEDULED: <2020-08-03 Mon>

@@ -2,6 +2,9 @@
 #+AUTHOR: Koen Colpaert
 #+OPTIONS: toc:nil
 
+* <2020-07-30 Thu>
+** Aanwezigen
+
 * <2020-07-23 Thu>
 ** Aanwezigen
 | Naam            | Dienst           |
@@ -11,7 +14,7 @@
 | Maarten Massart | Netwerk/Systemen |
 
 ** Changelog voor Pulse Secure aanpassingen? :aimad:
-*** TODO Status vragen na verlof Aimad
+*** DONE Status vragen na verlof Aimad :ARCHIVE:
 DEADLINE: <2020-07-27 Mon>
 ** Wifi Aalst
 De lijn en router zijn er nog steeds omdat Dries in opdracht van PVDN deze in de koelkast moest zetten voor geval VLABEL van idee veranderde. Lijn en router zijn van Proximus en het betreft een ADSL-lijn met Bbox router die indertijd werd aangevraagd voor gebruik door David Van Herreweghe.
