@@ -1,8 +1,8 @@
 #+SEQ_TODO: TODO DONE STARTED WAITING CANCELLED
-* Te doen [0/8]
+* Te doen
 *** TODO Contact Bart Cober voor DDOS                               :netwerk:
 *** TODO Digital ethics/return workspace                               :ciso:
-*** TODO Cleane versie maken efforts.org :orgmode:
+*** DONE Cleane versie maken efforts.org :orgmode:ARCHIVE:
 SCHEDULED: <2020-08-03 Mon>
 *** WAITING Werklastmeting op interdienstenoverleg :staf:
 *** DONE Inplannen cloud call :gartner:ARCHIVE:

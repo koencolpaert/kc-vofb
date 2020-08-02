@@ -1,65 +1,15 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-07-30 Thu 14:39]
-| Headline                           |    Time |      |
-|------------------------------------+---------+------|
-| *Total time*                       | *12:19* |      |
-|------------------------------------+---------+------|
-| <2020-07-30 Thu>                   |    0:19 |      |
-| \_  test                           |         | 0:19 |
-| <2020-07-24 Fri>                   |    1:17 |      |
-| \_  WP Issues                      |         | 0:17 |
-| \_  Overdracht Veronique           |         | 1:00 |
-| <2020-07-23 Thu>  Vervanging Peter |    2:45 |      |
-| <2020-07-20 Mon>                   |    7:58 |      |
-| \_  InfoSec PM                     |         | 2:12 |
-| \_  Gartner EITL Call              |         | 1:16 |
-| \_  Mail backlog                   |         | 4:30 |
+#+CAPTION: Clock summary at [2020-08-02 Sun 13:24]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:00* |
 #+END:
 
 
-Efforts W30
-* <2020-07-30 Thu>
-** test
-:LOGBOOK:
-CLOCK: [2020-07-30 Thu 14:20]--[2020-07-30 Thu 14:39] =>  0:19
-:END:
-* <2020-07-24 Fri>
-** WP Issues
-:LOGBOOK:
-CLOCK: [2020-07-24 Fri 09:29]--[2020-07-24 Fri 09:46] =>  0:17
-:END:
-** Overdracht Veronique
-:LOGBOOK:
-CLOCK: [2020-07-24 Fri 10:58]--[2020-07-24 Fri 11:58] =>  1:00
-:END:
-* <2020-07-23 Thu>  Vervanging Peter
-:LOGBOOK:
-CLOCK: [2020-07-23 Thu 13:29]--[2020-07-23 Thu 14:01] =>  0:32
-CLOCK: [2020-07-23 Thu 09:38]--[2020-07-23 Thu 11:38] =>  2:00
-CLOCK: [2020-07-23 Thu 08:59]--[2020-07-23 Thu 09:12] =>  0:13
-:END:
-* <2020-07-22 Wed>
-** InfoSec PM
-* <2020-07-20 Mon>
-** InfoSec PM
-   :LOGBOOK:
-   CLOCK: [2020-07-20 Mon 13:03]--[2020-07-20 Mon 15:15] =>  2:12
-   :END:
-** Gartner EITL Call
-   :LOGBOOK:
-   CLOCK: [2020-07-20 Mon 10:59]--[2020-07-20 Mon 12:15] =>  1:16
-   :END:
-** Mail backlog
-   :LOGBOOK:
-   CLOCK: [2020-07-20 Mon 09:07]--[2020-07-20 Mon 10:41] =>  1:34
-   :END:
-   15:40]--[2020-07-19 Sun 17:10] =>  1:30
-   CLOCK: [2020-07-19 Sun 14:30]--[2020-07-19 Sun 15:01] =>  0:31
-   CLOCK: [2020-07-19 Sun 14:18]--[2020-07-19 Sun 14:26] =>  0:08
-   CLOCK: [2020-07-19 Sun 10:25]--[2020-07-19 Sun 12:25] =>  2:00
-   :EN
-BOOK:
-   CLOCK: [2020-07-17 Fri 10:44]--[2020-07-17 Fri 11:01] =>  0:17
-   :END:
+Efforts Augustus 2020
+* <2020-08-03 Mon>
+** VFP Matomo
+** Privacy Shield en VS Cloud
+** CISO Projectkantoor
