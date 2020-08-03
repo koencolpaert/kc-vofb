@@ -1,15 +1,39 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-02 Sun 13:24]
-| Headline     | Time   |
-|--------------+--------|
-| *Total time* | *0:00* |
+#+CAPTION: Clock summary at [2020-08-03 Mon 17:12]
+| Headline                       | Time   |      |
+|--------------------------------+--------+------|
+| *Total time*                   | *6:13* |      |
+|--------------------------------+--------+------|
+| <2020-08-03 Mon>               | 6:13   |      |
+| \_  Vervanging AH              |        | 1:36 |
+| \_  VFP Matomo                 |        | 0:33 |
+| \_  Privacy Shield en VS Cloud |        | 0:41 |
+| \_  CISO Projectkantoor        |        | 1:52 |
+| \_  Ad hoc taken               |        | 1:31 |
 #+END:
 
 
 Efforts Augustus 2020
 * <2020-08-03 Mon>
+** Vervanging AH
+:LOGBOOK:
+CLOCK: [2020-08-03 Mon 09:15]--[2020-08-03 Mon 10:51] =>  1:36
+:END:
 ** VFP Matomo
+:LOGBOOK:
+CLOCK: [2020-08-03 Mon 11:05]--[2020-08-03 Mon 11:38] =>  0:33
+:END:
 ** Privacy Shield en VS Cloud
+:LOGBOOK:
+CLOCK: [2020-08-03 Mon 11:38]--[2020-08-03 Mon 12:19] =>  0:41
+:END:
 ** CISO Projectkantoor
+:LOGBOOK:
+CLOCK: [2020-08-03 Mon 13:48]--[2020-08-03 Mon 15:40] =>  1:52
+:END:
+** Ad hoc taken
+:LOGBOOK:
+CLOCK: [2020-08-03 Mon 15:41]--[2020-08-03 Mon 17:12] =>  1:31
+:END:

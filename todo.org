@@ -1,12 +1,11 @@
-#+SEQ_TODO: TODO DONE STARTED WAITING CANCELLED
 * Te doen
-*** TODO Contact Bart Cober voor DDOS                               :netwerk:
 *** TODO Digital ethics/return workspace                               :ciso:
-*** DONE Cleane versie maken efforts.org :orgmode:ARCHIVE:
-SCHEDULED: <2020-08-03 Mon>
 *** WAITING Werklastmeting op interdienstenoverleg :staf:
-*** DONE Inplannen cloud call :gartner:ARCHIVE:
 *** TODO Certificaat voor Tom :ciso:
 *** TODO Policy useraccounts uitwerken :ciso:
-*** TODO Matomo doc bespreken met Tia :ciso:
-SCHEDULED: <2020-08-03 Mon>
+*** TODO Infostrategy: verwerken opmerkingen Ad :ciso:
+DEADLINE: <2020-08-04 Tue>
+*** TODO Gartner Contact tracing
+DEADLINE: <2020-08-07 Fri>
+*** TODO Mail encryptie Lise
+SCHEDULED: <2020-08-05 Wed>
