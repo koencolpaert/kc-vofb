@@ -7,5 +7,5 @@
 DEADLINE: <2020-08-04 Tue>
 *** TODO Gartner Contact tracing
 DEADLINE: <2020-08-07 Fri>
-*** TODO Mail encryptie Lise
+*** DONE Mail encryptie Lise :ARCHIVE:
 SCHEDULED: <2020-08-05 Wed>

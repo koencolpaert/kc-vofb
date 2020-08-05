@@ -17,13 +17,13 @@ Op het hoogste niveau geeft dit document een overzicht van de samenhang tussen d
 
 De strategie dient een antwoord te formuleren op de volgende aspecten:
 - SRM verantwoordelijken moeten een goed inzicht hebben op de organisatiedoelstellingen
-- SRM verantwoordelijken hebben de belangrijkste technologie-gerelateerde risico's voor de organisatiedoelstellingen in kaart gebracht
-- De SRM-aanpak dient uitgewerkt te worden aan de hand van een veelvuldig gebruikt raamwerk en oplossingen bieden voor de geïndentificeerde risico's. 
+- SRM verantwoordelijken hebben de belangrijkste informatie(technologie-)-gerelateerde risico's voor de organisatiedoelstellingen in kaart gebracht
+- De SRM-aanpak dient uitgewerkt te worden aan de hand van een veelvuldig gebruikt raamwerk en oplossingen bieden op het vlak van processen, technologie en awareness voor de geïndentificeerde risico's.
 
 * Informatie Strategie
 ** Wie zijn we?
 Centraal in dit onderdeel staat onze missie en visie als organisatie. Voor het departement Financiën en Begroting luidt de visie: "Het Departement Financiën en Begroting wil het 
-financiële, fiscale, budgettaire en boekhoudkundige kenniscentrum van en voor de Vlaamse overheid zijn om zo van Vlaanderen een duurzaam financieel gezonde en performante regio te maken."
+financiële, fiscale, budgettaire en boekhoudkundige kenniscentrum van en voor de Vlaamse overheid zijn om zo van Vlaanderen een duurzaam financieel gezonde en performante regio te maken." In het realiseren van deze visie speelt betrouwbare en afdoende beveiligde informatie een belangrijke rol.
 
 Om deze visie en missie te bereiken heeft DFB in het verleden zowel beleids- als organisatiedoelstellingen gedefiniëerd. Het SO heeft hieruit de belangrijkste gehaald om de doelstelling "het" kenniscentrum
 te worden en Vlaanderen als voorbeeldregio op de kaart te zetten waar te maken, specifiek vanuit het perspectief van security. Deze doelstellingen zijn:
@@ -38,7 +38,7 @@ te worden en Vlaanderen als voorbeeldregio op de kaart te zetten waar te maken, 
 De input voor dit onderdeel komt ideaal vanuit een risk assessment of vanuit het IT risicoregister. Gartner beveelt aan deze lijst kort en bondig te houden wat ook aansluit bij de CISO insteek om
 doelstellingen te formuleren die op korte termijn tot haalbare resultaten kunnen lijden voor het SIEM/SOC-team en de visibiliteit naar de business te verhogen.
 
-Duidelijk identificeerbare risico's zijn:
+Duidelijk identificeerbare risico's met betrekking tot onze betrouwbare en veilige informatievoorziening zijn:
 - Regelgeving en naleving
 - Onvermogen om digitale bedrijfsprojecten bij te houden
 - Risico opkomende technologie te missen
@@ -47,23 +47,23 @@ Duidelijk identificeerbare risico's zijn:
 
 ** Hoe pakken we ze aan?
 Dit onderdeel bevat de grote lijnen van het risicobeheersingsprogramma. Er dient een duidelijke link te zijn met de risico's zowel als de organisatiedoelstellingen.
-- Implementatie van een proactief risicobeheer
-- Bescherming van onze informatie
-- Implementatie van een robuust crisis- en incidentbeheer inclusief beheersmaatregelen
-- Verbeteren van de beschikbaarheid en herstelbaarheid van de kritische systemen
++ Implementatie van een proactief risicobeheer
++ Bescherming van onze informatie zowel als de data van burgers
++ Implementatie van een robuust crisis- en incidentbeheer inclusief beheersmaatregelen
++ Het verhogen van de continuiteit van onze diensten door het continu verbeteren van de beschikbaarheid en herstelbaarheid van de kritische systemen
 
 * Risico Landschap
 Gebaseerd op de geïdentificeerde risico's en onze aanpak gaan we het nodige doen zodat we onze bedrijfsdoelstellingen kunnen bereiken en de risicoblootstelling beperken tot binnen de grenzen van 
 onze risicobereidheid.
-- *Regelgeving en naleving*: Als we ons niet aan de regels houden, zullen we boetes krijgen, een negatieve perceptie bij het publiek, hogere nalevingskosten krijgen en het vertrouwen verliezen van het politiek niveau..
-- *Onvermogen om digitale bedrijfsprojecten bij te houden*: Als we de digitale doelen van onze organisatie niet kunnen ondersteunen, lopen we achter op de andere bestuursniveaus, krijgen we de reputatie dat we niet met de tijd (kunnen) veranderen, zien we hogere kosten als gevolg van een inhaalslag achteraf en verliezen we het vertrouwen van burger en politiek.
+- *Regelgeving en naleving*: Als we ons niet aan de regels houden, zullen we boetes krijgen, een negatieve perceptie bij het publiek, hogere nalevingskosten krijgen en het vertrouwen verliezen van het politiek niveau.Als we ons wel aan de regels houden dan vullen we daarmee onze voorbeeld functie in en kunnen we tijd besparen doordat er meer vertouwen is.
+- *Onvermogen om digitale bedrijfsprojecten bij te houden*: Als we de digitale doelen van onze organisatie niet kunnen ondersteunen, lopen we achter op de andere bestuursniveaus, krijgen we de reputatie dat we niet met de tijd (kunnen) veranderen, zien we hogere kosten als gevolg van een inhaalslag achteraf en verliezen we het vertrouwen van burger en politiek. Door hier tijdig op in te zetten kunnen we op middellange termijn tijd en geld besparen.
 - *Risico opkomende technologie te missen*: Als we risico's negeren als gevolg van opkomende technologie die niet wordt begrepen of beheerd, zal dit ons ervan weerhouden te groeien als organisatie, waardoor we 'klanten' (burgers en politiek) van de volgende generatie verliezen die steun van deze nieuwe technologie zullen 'verwachten' en het gevaar van onbekende risico's laten toenemen.
 - *Risico van derden*: Als we ons uitgebreide ecosysteemrisico, het risico van de digitale toeleveringsketen en de uitgebreide risico's op het gebied van regelgeving en naleving niet effectief beheren, zullen aansprakelijkheid, afname van vertrouwen, gebrek aan zichtbaarheid en minder controle / zichtbaarheid leiden tot een lager vertrouwen in ons vermogen om bedrijfsrisico's te beheersen.
 - *Beschikbaarheid van onze kritische systemen*: Als we niet op inzetten op het beschikbaar houden van onze systemen in alle omstandigheden, zullen we niet kunnen herstellen in geval van uitval, wat resulteert in verloren inkomsten (VLABEL), downtime, burgers die niet geholpen kunnen worden - kan intern, extern, per ongeluk of kwaadwillig zijn.
 
 * Risico Aanpak
 In de vorige hoofdstukken lag de nadruk op de doelstellingen en de risico's, in dit onderdeel wordt voor het eerst naar de praktische kant van de zaak gekeken ('Hoe gaan we deze principes omzetten in de praktijk?').
-Er dient ook op het vlak van security nagedacht te worden over een missie en visie en de nodige objectieven moeten worden uitgewerkt zodat we kunnen overgaan tot actie. Dit onderdeel is grotendeels gebaseerd op de 5 domeinen van het NIST CSF:
+Er dient ook op het vlak van security nagedacht te worden over een missie en visie en de nodige objectieven moeten worden uitgewerkt zodat we kunnen overgaan tot actie. We gebruiken hiervoor de interantionaal veel gebruikte standaard NIST met de volgende 5 domeinen::
 - *Identificeren*: Weten wat we hebben, wat belangrijk is en wat we doen.
 - *Beschermen*: Nemen van efficiënte en effectieve beschermingsmaatregelen.
 - *Detecteren*: Opsporen van die zaken die we niet tijdig konden voorkomen.
@@ -74,7 +74,7 @@ Er dient ook op het vlak van security nagedacht te worden over een missie en vis
 
 *Missie*
 
-Het Security Office van Financiën en Begroting werkt samen met de entiteiten van departement en agentschap om systeem- en netwerkbronnen te beveiligen en de vertrouwelijkheid van informatie over en van burgers en organisatie te beschermen.
+Het Security Office van Financiën en Begroting werkt samen met de entiteiten van departement en agentschap om systeem- en netwerkbronnen te beveiligen en de vertrouwelijkheid van informatie over en van burgers en organisatie te beschermen en daarmee een zo hoog mogelijke beschikbaarheid, vertrouwelijkheid en integriteit van onze informatie gebaseerde bedrijfsprocessen te realiseren.
 
 *Visie*
 
@@ -86,12 +86,12 @@ Om deze missie tot een goed einde te brengen zal het SO:
 - Een information security strategie en architectuur ontwikkelen in samenspraak met informatie- en applicatiebeheerders
 - Erop toezien dat de nodige incident response en disaster recovery processen uitgewerkt zijn én worden toegepast
 - Een antwoord formuleren op en oplossen van security incidenten
-- Door toegepaste communicatie en opleiding de awareness bij alle betrokkenen verhogen
+- Door toegepaste communicatie en opleiding de awareness bij alle betrokkenen verhogen en daarmee de duurzaamheid van de maatregelen te verhogen.
 
 Hier wordt de onderlinge samenhang duidelijk tussen de principes, doelstellingen en de onderdelen van het raamwerk:
 - Identificeren <> Implementatie van een proactief risicobeheer
-- Beschermen <> Bescherming van onze informatie
-- Detecteren <> Voorbereiden op nieuwe technologieën
+- Beschermen <> Risico analyse omzetten in beschermings maatregelen.
+- Detecteren <> monitoren om (mogelijke) incidenten op te sporen
 - Reageren <> Verbeteren van de beschikbaarheid en herstelbaarheid van de kritische systemen
 - Herstellen <> Implementatie van een robuust crisis- en incidentbeheer inclusief beheersmaatregelen 
 
@@ -104,7 +104,7 @@ In het laatste onderdeel van dit document wordt de link gelegd tussen de hoger n
 - Reageren > Response planning, analyse, beperking, verbeterprocessen, communicatie
 - Herstellen > Terugkeer naar een goede staat, lessen trekken en streven naar continue verbetering > herstelplannen, communicatie
 
-Om het raamwerk optimaal te benutten, moeten we deze processen implementeren die ons zullen helpen schaalbare, herhaalbare gedragspatronen en acties op te bouwen om ons beveiligings- en risicobeheerprogramma in de loop van de tijd te verbeteren.
+Om het raamwerk optimaal te benutten, moeten we deze processen implementeren die ons zullen helpen schaalbare, herhaalbare gedragspatronen en acties op te bouwen om ons beveiligings- en risicobeheerprogramma in de loop van de tijd te verbeteren. Dit alles op een zo effectief en efficiente manier door zoveel mogelijk gebruik te maken van best practices en standaarden (van Gartner). Tevens moeten deze oplossingen gebruikersvriendelijk zijn en moet de bedrijfsbrede accepatie worden geregeld door een sterke ondersteuning van het management en goede communicatie.
 
 
 * Lijst afkortingen

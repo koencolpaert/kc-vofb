@@ -1,12 +1,14 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-03 Mon 17:12]
-| Headline                       | Time   |      |
+#+CAPTION: Clock summary at [2020-08-04 Tue 09:39]
+| Headline                       |   Time |      |
 |--------------------------------+--------+------|
-| *Total time*                   | *6:13* |      |
+| *Total time*                   | *6:44* |      |
 |--------------------------------+--------+------|
-| <2020-08-03 Mon>               | 6:13   |      |
+| <2020-08-04 Tue>               |   0:31 |      |
+| \_  Vervanging AH              |        | 0:31 |
+| <2020-08-03 Mon>               |   6:13 |      |
 | \_  Vervanging AH              |        | 1:36 |
 | \_  VFP Matomo                 |        | 0:33 |
 | \_  Privacy Shield en VS Cloud |        | 0:41 |
@@ -16,6 +18,19 @@ KC Efforts
 
 
 Efforts Augustus 2020
+* <2020-08-04 Tue>
+** Gartrner EITL call
+:LOGBOOK:
+CLOCK: [2020-08-04 Tue 14:29]--[2020-08-04 Tue 15:29] =>  1:00
+:END:
+** Gartner strategiedoc
+:LOGBOOK:
+CLOCK: [2020-08-04 Tue 09:39]--[2020-08-04 Tue 12:34] =>  2:55
+:END:
+** Vervanging AH
+:LOGBOOK:
+CLOCK: [2020-08-04 Tue 09:08]--[2020-08-04 Tue 09:39] =>  0:31
+:END:
 * <2020-08-03 Mon>
 ** Vervanging AH
 :LOGBOOK:
