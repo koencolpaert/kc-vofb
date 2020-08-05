@@ -3,9 +3,11 @@
 *** WAITING Werklastmeting op interdienstenoverleg :staf:
 *** TODO Certificaat voor Tom :ciso:
 *** TODO Policy useraccounts uitwerken :ciso:
-*** TODO Infostrategy: verwerken opmerkingen Ad :ciso:
+*** DONE Infostrategy: verwerken opmerkingen Ad :ciso:ARCHIVE:
 DEADLINE: <2020-08-04 Tue>
-*** TODO Gartner Contact tracing
+*** DONE Gartner Contact tracing :ARCHIVE:
 DEADLINE: <2020-08-07 Fri>
 *** DONE Mail encryptie Lise :ARCHIVE:
 SCHEDULED: <2020-08-05 Wed>
+*** TODO ACM/IDM doc :netwerk:
+DEADLINE: <2020-08-07 Fri>

@@ -18,6 +18,12 @@ KC Efforts
 
 
 Efforts Augustus 2020
+* <2020-08-05 Wed>
+** Ad hoc/mail backlog
+:LOGBOOK:
+CLOCK: [2020-08-05 Wed 09:40]--[2020-08-05 Wed 11:28] =>  1:48
+CLOCK: [2020-08-05 Wed 09:11]--[2020-08-05 Wed 09:26] =>  0:15
+:END:
 * <2020-08-04 Tue>
 ** Gartrner EITL call
 :LOGBOOK:
