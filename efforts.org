@@ -18,6 +18,14 @@ KC Efforts
 
 
 Efforts Augustus 2020
+* <2020-08-06 Thu>
+** Vervanging AH
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+CLOCK: [2020-08-06 Thu 09:14]
+:END:
 * <2020-08-05 Wed>
 ** Ad hoc/mail backlog
 :LOGBOOK:
