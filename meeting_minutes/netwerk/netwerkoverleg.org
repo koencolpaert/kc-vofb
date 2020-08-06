@@ -2,8 +2,54 @@
 #+AUTHOR: Koen Colpaert
 #+OPTIONS: toc:nil
 
+* <2020-08-06 Thu>
+** Aanwezigen
+| Naam                       | Dienst   |
+|----------------------------+----------|
+| Koen Colpaert              | Staf     |
+| Ward Bemelmans             | Staf     |
+| Aimad Soultani             | Netwerk  |
+| Maarten Massart            | Netwerk  |
+| Tom Janssens               | Systemen |
+| Frederik Van Den Noortgate | Helpdesk |
+
+** Overlopen issuelijst
+- Maarten: ticket 480 en 582
+- quid: kunnen we iets doen aan foute SO-logging? Opnemen van communicatie/sensibilisering met Tia
+** Prioritaire tickets
+- Orafin
+- URL rewrite op F5. Is doorgevoerd, eerste instantie werkte dat en nu niet meer. Wouter gaf nog een extra URL. Volgens Aimad zijn de URI's niet correct. Rewrite moet beginnen met https en moet eindigen met /.
+** Rewrite datalink Bob
+- Zie supra
+** ACM/IDM doc Liesbeth
+- Oktober is eigenlijk al niet meer haalbaar
+- Moet blijkaar aan beide kanten een test- en productieomgeving
+- Plan B is verder gaan zonder support
+- Waarom ACM/IDM?
+** Afspraken werking netwerkdienst
+- Frederik vervangt Maarten tijdens de komende 3 weken
+- Tickets in Sysaid steken
+- Mail sturen aan diensthoofden dat netwerkissues vanaf heben allemaal via Sysaid moeten, hetzij self-service, hetzij mail aan ICT-helpdesk? :koen:
+SCHEDULED: <2020-08-06 Thu>
+- Koen/Ward zetten prioriteiten voor Aimad
+- Elke 2 dagen korte meeting van 5-15 min voor prioretisering.
+- Prioriteiten netwerk issues inboeken :koen:
+DEADLINE: <2020-08-07 Fri>
+- Aimad klaagt werkdruk aan. Bekijken met PVDN na verlof.
+SCHEDULED: <2020-08-14 Fri>
+- Aimad heeft opleiding eind augustus. Hoe zat dat met die CLC's(?) die in contract zitten?
+
 * <2020-07-30 Thu>
 ** Aanwezigen
+| Naam            | Dienst  |
+|-----------------+---------|
+| Koen Colpaert   | Staf    |
+| Aimad Soultani  | Netwerk |
+| Maarten Massart | Netwerk |
+
+** Overlopen issuelijst
+** Bespreken werking netwerkdienst
+
 
 * <2020-07-23 Thu>
 ** Aanwezigen
