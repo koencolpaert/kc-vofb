@@ -1,0 +1,51 @@
+#+TITLE: Security Officer meeting reports & notes
+#+AUTHOR: Koen Colpaert
+#+OPTIONS: toc:nil
+\hypersetup{colorlinks=true,linkcolor=darkblue}
+\newpage
+
+* <2020-07-14 Tue> MadCap
+
+** Algemeen
+
+| Naam           | Entiteit | Functie              |
+|----------------+----------+----------------------|
+| Koen Colpaert  | POEMA    | CISO                 |
+| Tia Cormon     | POEMA    | DPO                  |
+| Lenn Depoorter | VLABEL   | Medewerker Kenniscel |
+
+** Probleemstelling
+Voor het publiceren van handboeken/kennisdeling maakt de Kenniscel van Vlabel gebruik van een toepassing 
+"MadCap Flare". "Madcap Flare" staat in voor het genereren van de webpagina's vanuit XML-pagina's die in eerste
+instantie op lokale storage opgeslagen staan. Deze MadCap-projecten worden zowel als bronbestand en als eindproduct
+opgeslagen. 
+
+In een eerste iteratie werden de bestanden opgeslagen op de fileserver maar sinds de uitfasering van de M-schijven 
+gebeurt dit via de SharePoint. Daar waar het hele proces van opslag > generatie > opslag/publicatie vroeger een tiental
+minuten in beslag nam is dit nu opgelopen tot een half uur. Om die reden is de Kenniscel geïnteresseerd in de mogelijkheden
+van de cloud oplossing van dezelfde leverancier; "MadCap Central".
+
+Een eerste overleg vond plaats tussen de Kenniscel en de CISO/DPO van POEMA om de risico's inzake cloudmigratie te bespreken. 
+Daarbij gaf de Kenniscel enige toelichting over de huidige procedure en de inhoud van de website. Het gebruik is eerder beperkt
+te noemen met slechts een 5-tal medewerkers en 2 beheerders. 
+Privacy-gegevens worden niet verwerkt maar wel informatie die betrekking heeft op de algemene werking van Vlabel. Voor zover wij
+konden nagaan bevat de website een schat aan informatie waarvan sommige als vertrouwelijk kan beschouwd worden.
+
+Voor een aantal technische vragen moest de Kenniscel het antwoord schuldig blijven. De CISO zal contact opnemen met de leverancier
+voor meer info over:
+- het opslaan van de XML project-bestanden: staan deze servers in Europa? Encryptie? Backup? Vernietiging bestanden na einde overeenkomst?
+- gebruikersbeheer: hoe worden gebruikers aangemaakt? Username/paswoord of ook MFA? 
+
+Eventueel kan als alternatief ook overwogen worden om de oude workflow via de M-schijf terug in te voeren aangezien vooral de 
+SharePoint de vertragende factor blijkt te zijn. Daarnaast is uit testen ook gebleken dat de generatie van de webdocumentatie via
+de cloudoplossing ook een deel sneller gaat. Dat laatste kan misschien opgevangen worden door de MadCap Central op een VMware-machine
+te laten draaien met aparte storage voor de XML-projecten.
+
+** Risicobeheersing
+Niettegenstaande de gepubliceerde handboeken en documentatie geen persoonsgebonden gegevens bevatten is een beperkte DPIA wel
+aangewezen aangezien de toepassing wel (technische) informatie bevat over de door Vlabel gebruikte toepassingen alsook motivaties
+voor beslissingen bij bepaalde procedures.
+Het SO beveelt ook de nodige beheersmaatregelen aan inzake het opvolgen van de toegangen en gebruikers.
+
+** Beslissing CISO/DPO
+tbd

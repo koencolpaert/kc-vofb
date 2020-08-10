@@ -1,24 +1,47 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-04 Tue 09:39]
-| Headline                       |   Time |      |
-|--------------------------------+--------+------|
-| *Total time*                   | *6:44* |      |
-|--------------------------------+--------+------|
-| <2020-08-04 Tue>               |   0:31 |      |
-| \_  Vervanging AH              |        | 0:31 |
-| <2020-08-03 Mon>               |   6:13 |      |
-| \_  Vervanging AH              |        | 1:36 |
-| \_  VFP Matomo                 |        | 0:33 |
-| \_  Privacy Shield en VS Cloud |        | 0:41 |
-| \_  CISO Projectkantoor        |        | 1:52 |
-| \_  Ad hoc taken               |        | 1:31 |
+#+CAPTION: Clock summary at [2020-08-10 Mon 11:05]
+| Headline                       |    Time |      |
+|--------------------------------+---------+------|
+| *Total time*                   | *16:17* |      |
+|--------------------------------+---------+------|
+| <2020-08-10 Mon>               |    2:21 |      |
+| \_  Pulse Secure opkuis        |         | 2:21 |
+| <2020-08-06 Thu>               |    1:14 |      |
+| \_  Netwerkoverleg             |         | 1:14 |
+| <2020-08-05 Wed>               |    2:03 |      |
+| \_  Ad hoc/mail backlog        |         | 2:03 |
+| <2020-08-04 Tue>               |    4:26 |      |
+| \_  Gartrner EITL call         |         | 1:00 |
+| \_  Gartner strategiedoc       |         | 2:55 |
+| \_  Vervanging AH              |         | 0:31 |
+| <2020-08-03 Mon>               |    6:13 |      |
+| \_  Vervanging AH              |         | 1:36 |
+| \_  VFP Matomo                 |         | 0:33 |
+| \_  Privacy Shield en VS Cloud |         | 0:41 |
+| \_  CISO Projectkantoor        |         | 1:52 |
+| \_  Ad hoc taken               |         | 1:31 |
 #+END:
 
 
 Efforts Augustus 2020
+* <2020-08-10 Mon>
+** Pulse Secure opkuis
+:LOGBOOK:
+CLOCK: [2020-08-10 Mon 08:43]--[2020-08-10 Mon 11:04] =>  2:21
+:END:
+* <2020-08-07 Fri>
+** Pulse Secure breach
 * <2020-08-06 Thu>
+** Netwerkoverleg
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+CLOCK: [2020-08-06 Thu 13:27]--[2020-08-06 Thu 14:40] =>  1:13
+CLOCK: [2020-08-06 Thu 13:26]--[2020-08-06 Thu 13:27] =>  0:01
+:END:
 ** Vervanging AH
 :PROPERTIES:
 :ORDERED:  t

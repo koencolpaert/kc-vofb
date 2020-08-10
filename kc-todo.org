@@ -4,5 +4,5 @@
 ** TODO ACM/IDM doc voor Liesbeth :ciso:
 DEADLINE: <2020-08-07 Fri>
 ** WAIT Werklastmeting op interdiensten :staf:
-** TODO Wonder goedkeuring TJ :staf:
+** DONE Wonder goedkeuring TJ :staf:ARCHIVE:
 SCHEDULED: <2020-08-06 Thu>
