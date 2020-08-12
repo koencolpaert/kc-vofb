@@ -2,6 +2,37 @@
 #+AUTHOR: Koen Colpaert
 #+OPTIONS: toc:nil
 
+* <2020-08-12 Wed>
+
+** Aanwezigen
+
+| Naam                  | Organisatie | Rol      |
+|-----------------------+-------------+----------|
+| Koen Colpaert         | FenB        | CISO     |
+| Peter Van den Neucker | FenB        | CIO      |
+| Tom Janssens          | FenB        | Systemen |
+| Ward Bemelmans        | FenB        | Staf     |
+| Aimad Soultani        | FenB        | Netwerk  |
+| Younes Fourir         | Proximus    | GCA/SGI  |
+| Dirk Van Der Sanden   | DXC         |          |
+| Renaud Dubois         | HBplus      |          |
+
+** Reeds Ondernomen acties
+- Younes geeft een overzicht van zijn bevindingen in Splunk op de VPN logs. Er zijn verschillende logins geweest vanuit diverse landen maar na contact met de betrokken gebruiker/dienst bleek dat telkens om legitieme aanmeldingen te gaan. Uiteindelijk werd de lijst terug gebracht tot 6 verschillende pogingen uit Japan en Rusland maar geen enkele raakte verder dankzij onze MFA.
+- De paswoorden voor de Radius en AD werden aangepast zodat ook daar mogelijk misbruik uitgesloten is.
+- De reset van de gebruikerspins is een voortdurend proces
+- Alle korte termijn acties (reset pins, SSH, lokale accounts,...) werden daarmee afgehandeld
+- Younes stelt de vraag of -in het licht van de bevindingen van de VPN logs- het nog nodig is hierop verder te gaan. We kunnen ondertussen redelijk uitsluiten dat er langs daar verdere niet-geauthoriseerde toegang was? Er wordt donderdag 13/8 een aparte meeting gehouden om de strategie op korte termijn te bepalen.
+
+** Te ondernemen acties
+- De HD werd gecloned en wordt op 13/8 terug geplaatst
+- FenB kan vanaf dan beginnen met het terug opbrengen van de cluster en de opkuis van de gebruikersaccounts
+- Verder forensisch onderzoek zal zich toespitsen op de logs van de firewall
+- LDAP simple bind wordt aangepast zodat er niets meer in clear-text wordt overgestuurd
+
+** Communicatie
+- Koen stelt een mail op voor Koen A en David VH met een stand van zaken en een overzicht van de uitgevoerde en nog uit te voeren acties.
+
 * <2020-08-10 Mon>
 
 ** Aanwezigen
