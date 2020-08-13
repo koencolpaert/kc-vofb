@@ -2,6 +2,34 @@
 #+AUTHOR: Koen Colpaert
 #+OPTIONS: toc:nil
 
+* <2020-08-13 Thu>
+
+** Aanwezigen
+
+| Naam                  | Organisatie | Rol      |
+|-----------------------+-------------+----------|
+| Koen Colpaert         | FenB        | CISO     |
+| Peter Van den Neucker | FenB        | CIO      |
+| Ward Bemelmans        | FenB        | Staf     |
+| Tom Janssens          | FenB        | Systemen |
+| Aimad Soultani        | FenB        | Netwerk  |
+| Younes Fourir         | Proximus    | GCA/SGI  |
+
+** Reeds Ondernomen acties
+- Younes geeft de laatste stand van zaken. Op basis van zijn bevindingen hebben we de bewijzen dat er ongeoorloofde toegang is geweest en dat er gevoelige data werd gestolen. Er is evenwel geen code uitgevoerd. Diegenen die de vulnerability hebben misbruikt hebben geen verdere acties genomen, nadien zijn er wel vanuit verschillende landen pogingen geweest om aan te melden maar aangezien we voor het overige een goede configuratie hadden is dat niet gelukt.
+- Op basis van deze informatie werd besloten het onderzoek hier te stoppen. Younes levert een eindrapport op en we bekijken ism Proximus wat we met de resterende dagen kunnen doen. Verschillende pistes zijn mogelijk: training on the job, red team of opsparen voor latere cases.
+
+** Te ondernemen acties
+- Younes neemt contact op intern om te zien welke opties we hebben voor de resterende dagen
+- Koen zal deze vraag officieel stellen via mail
+- Koen annuleert de stavaza meeting van morgen
+- De LDAP bind en het opbrengen van de cluster dienen te worden opgenomen in de planning van het netwerkteam
+- De staf zal zich in de loop van volgende week buigen over de nodige acties voor het instellen van processen en organisatie
+
+** Communicatie
+
+- er werd geen verdere communicatie gepland. We wachten het eindrapport Proximus af, in tussendtijd kan dit document gebruikt worden voor de communicatie naar het management.
+
 * <2020-08-12 Wed>
 
 ** Aanwezigen

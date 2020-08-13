@@ -1,4 +1,4 @@
-% Created 2020-08-12 Wed 21:06
+% Created 2020-08-13 Thu 21:19
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -28,11 +28,54 @@
 
 \maketitle
 
-\section{\textit{<2020-08-12 Wed>}}
-\label{sec:org2c7a223}
+\section{\textit{<2020-08-13 Thu>}}
+\label{sec:orgd638dc9}
 
 \subsection{Aanwezigen}
-\label{sec:orgbe7dcd2}
+\label{sec:org9f75fbc}
+
+\begin{center}
+\begin{tabular}{lll}
+Naam & Organisatie & Rol\\
+\hline
+Koen Colpaert & FenB & CISO\\
+Peter Van den Neucker & FenB & CIO\\
+Ward Bemelmans & FenB & Staf\\
+Tom Janssens & FenB & Systemen\\
+Aimad Soultani & FenB & Netwerk\\
+Younes Fourir & Proximus & GCA/SGI\\
+\end{tabular}
+\end{center}
+
+\subsection{Reeds Ondernomen acties}
+\label{sec:org97dc4ad}
+\begin{itemize}
+\item Younes geeft de laatste stand van zaken. Op basis van zijn bevindingen hebben we de bewijzen dat er ongeoorloofde toegang is geweest en dat er gevoelige data werd gestolen. Er is evenwel geen code uitgevoerd. Diegenen die de vulnerability hebben misbruikt hebben geen verdere acties genomen, nadien zijn er wel vanuit verschillende landen pogingen geweest om aan te melden maar aangezien we voor het overige een goede configuratie hadden is dat niet gelukt.
+\item Op basis van deze informatie werd besloten het onderzoek hier te stoppen. Younes levert een eindrapport op en we bekijken ism Proximus wat we met de resterende dagen kunnen doen. Verschillende pistes zijn mogelijk: training on the job, red team of opsparen voor latere cases.
+\end{itemize}
+
+\subsection{Te ondernemen acties}
+\label{sec:org4f7a74e}
+\begin{itemize}
+\item Younes neemt contact op intern om te zien welke opties we hebben voor de resterende dagen
+\item Koen zal deze vraag officieel stellen via mail
+\item Koen annuleert de stavaza meeting van morgen
+\item De LDAP bind en het opbrengen van de cluster dienen te worden opgenomen in de planning van het netwerkteam
+\item De staf zal zich in de loop van volgende week buigen over de nodige acties voor het instellen van processen en organisatie
+\end{itemize}
+
+\subsection{Communicatie}
+\label{sec:orgbf285a0}
+
+\begin{itemize}
+\item er werd geen verdere communicatie gepland. We wachten het eindrapport Proximus af, in tussendtijd kan dit document gebruikt worden voor de communicatie naar het management.
+\end{itemize}
+
+\section{\textit{<2020-08-12 Wed>}}
+\label{sec:orgb12b9df}
+
+\subsection{Aanwezigen}
+\label{sec:orge3f5bb4}
 
 \begin{center}
 \begin{tabular}{lll}
@@ -50,7 +93,7 @@ Renaud Dubois & HBplus & \\
 \end{center}
 
 \subsection{Reeds Ondernomen acties}
-\label{sec:orgbef5ad1}
+\label{sec:org5e36bef}
 \begin{itemize}
 \item Younes geeft een overzicht van zijn bevindingen in Splunk op de VPN logs. Er zijn verschillende logins geweest vanuit diverse landen maar na contact met de betrokken gebruiker/dienst bleek dat telkens om legitieme aanmeldingen te gaan. Uiteindelijk werd de lijst terug gebracht tot 6 verschillende pogingen uit Japan en Rusland maar geen enkele raakte verder dankzij onze MFA.
 \item De paswoorden voor de Radius en AD werden aangepast zodat ook daar mogelijk misbruik uitgesloten is.
@@ -60,7 +103,7 @@ Renaud Dubois & HBplus & \\
 \end{itemize}
 
 \subsection{Te ondernemen acties}
-\label{sec:orgf6beb1b}
+\label{sec:org3e6aa51}
 \begin{itemize}
 \item De HD werd gecloned en wordt op 13/8 terug geplaatst
 \item FenB kan vanaf dan beginnen met het terug opbrengen van de cluster en de opkuis van de gebruikersaccounts
@@ -69,16 +112,16 @@ Renaud Dubois & HBplus & \\
 \end{itemize}
 
 \subsection{Communicatie}
-\label{sec:org68b6408}
+\label{sec:orgb192014}
 \begin{itemize}
 \item Koen stelt een mail op voor Koen A en David VH met een stand van zaken en een overzicht van de uitgevoerde en nog uit te voeren acties.
 \end{itemize}
 
 \section{\textit{<2020-08-10 Mon>}}
-\label{sec:org9072340}
+\label{sec:orgec5010f}
 
 \subsection{Aanwezigen}
-\label{sec:orge49b798}
+\label{sec:org4c4641a}
 
 \begin{center}
 \begin{tabular}{lll}
@@ -97,7 +140,7 @@ Younes Fourir & Proximus & GCA/SGI\\
 \end{center}
 
 \subsection{Reeds ondernomen acties}
-\label{sec:orgebeb768}
+\label{sec:orgde58e83}
 \begin{itemize}
 \item AD en LDAP sync accounts werden aangepakt. LDAP werd gereset en AD stond al disabled.
 \item Er wordt gevraagd naar clear text protocols; volgens Aimad is alles SSL encrypted. Vraag is of dat ook zo is voorbij de VPN?
@@ -108,7 +151,7 @@ Younes Fourir & Proximus & GCA/SGI\\
 \end{itemize}
 
 \subsection{Te ondernemen acties}
-\label{sec:orgcea277a}
+\label{sec:org21eff0b}
 \begin{itemize}
 \item Paswoord reset op sync accounts voor firewall en Infoblox. Proximus medewerker gevraagd ter ondersteuning (AP Aimad)
 \item Kijken in Splunk welke protocollen allemaal gebruikt worden (AP Younes)
@@ -118,10 +161,10 @@ Younes Fourir & Proximus & GCA/SGI\\
 
 
 \section{\textit{<2020-08-07 Fri> } - Vervolg}
-\label{sec:org53c8ad9}
+\label{sec:org48df6f5}
 
 \subsection{Aanwezigen}
-\label{sec:orgc7c0fba}
+\label{sec:org1efca89}
 
 \begin{center}
 \begin{tabular}{lll}
@@ -140,7 +183,7 @@ Ward Bemelmans & FenB & Staf\\
 \end{center}
 
 \subsection{Reeds ondernomen acties}
-\label{sec:org85a66d0}
+\label{sec:org946b1ca}
 \begin{itemize}
 \item Status van de SSH key werd bekeken en bevestigd dat SSH toegang volledig disabled staat (ook voor admin)
 \item Session roaming staat uit zodat de cookies niet kunnen misbruikt worden
@@ -148,7 +191,7 @@ Ward Bemelmans & FenB & Staf\\
 \end{itemize}
 
 \subsection{Te ondernemen acties}
-\label{sec:org2ea5c8d}
+\label{sec:org0f625a0}
 \begin{itemize}
 \item Alle local accounts moeten MFA enabled hebben
 \item Service accounts op AD en Radius moeten veranderd worden (2x op AD)
@@ -160,27 +203,27 @@ Ward Bemelmans & FenB & Staf\\
 Door bovenstaande acties en configuraites is het uit de lucht halen niet meer zo dringend. Eerst alle users aanpakken, logs bekin dan pas de disk halen als er geen failover meer is. Aimad verwittigd Younes wanneer de sync uitstaat. Resetten van PIN blijkt niet geautomatiseerd te kunnen (mail config?), helpdesk gaat dat maandag persoon per persoon doen.
 
 \subsection{Communicatie}
-\label{sec:org58f59e3}
+\label{sec:org8c7a1e8}
 
 Maandag communicatie uitsturen naar alle gebruikers dat de PIN gaat gereset worden.
 
 \section{\textit{<2020-08-07 Fri>}}
-\label{sec:orga0de539}
+\label{sec:orgec4d4c0}
 
 \subsection{Reeds ondernomen acties}
-\label{sec:orgfee9407}
+\label{sec:org1b5d302}
 \begin{itemize}
 \item Proximus vroeg en kreeg goedkeuring voor CSIRT-offerte (3000€ opzetkost + 15000€ voor 10 mandagen)
 \item Eerste logs werden reeds doorgestuurd aan Younes
 \end{itemize}
 
 \subsection{Bespreking}
-\label{sec:org9c72492}
+\label{sec:org5dc3d25}
 
 Uit een eerste analyse van de logs blijkt dat er maar een retentie is van 3 weken. Dit is een gevolg van onze upgrade van de versie in juli. De rest van de historiek zouden we uit Splunk moeten kunnen halen.
 
 \subsection{Te ondernemen acties}
-\label{sec:org8fdb017}
+\label{sec:org5dfe59f}
 \begin{itemize}
 \item Younes krijgt 3 logs (voor en na upgrade en huidige toestand)
 \item Failover wordt uitgezet
@@ -194,14 +237,14 @@ Uit een eerste analyse van de logs blijkt dat er maar een retentie is van 3 weke
 \end{itemize}
 
 \subsection{Open vragen}
-\label{sec:org065184e}
+\label{sec:orgd6dc591}
 Hoe staat de session roaming ingesteld? Afhankelijk daarvan kan de cookie misbruikt zijn om aan te melden op andere omgevingen.
 
 
 \section{\textit{<2020-08-06 Thu>}}
-\label{sec:orga42d3cf}
+\label{sec:org7defad7}
 \subsection{Aanwezigen}
-\label{sec:org89014cd}
+\label{sec:orgd98ae69}
 
 
 \begin{center}
@@ -222,12 +265,12 @@ Aimad Soultani & FenB & Netwerk & \\
 \end{center}
 
 \subsection{Probleemstelling}
-\label{sec:orgc3aa0bc}
+\label{sec:org6cda8d8}
 
 Op Ruschische hackersfora doet een bestand de ronde met gehackte gegevens van de Pulse Secure omgevingen. Deze vulnerability werd door Pulse Secure opgemerkt op 24 april. FB heeft de bestaande systemen gepatched op 17 juli (doorlooptijd 85 dagen). Uit de gelekte gegevens van FB blijkt dat er een logbestand werd gedumpt met als laatste entry 24 juni. We moeten er dus van uitgaan dat er 1) toegang is geweest door onbevoegden tot deze omgeving en 2) dat dit gelopen heeft tot en met 24 juni (62 dagen). Door de patch is onze omgeving terug secure en de gebruikers accounts werken met MFA dus daar is ook nauwelijks risico. Uit forensisch onderzoek van de Pulse Secure omgeving moet blijken of er nog andere omgevingen bij deze hack betrokken zijn.
 
 \subsection{Bespreking}
-\label{sec:org43b9923}
+\label{sec:orgcd35e86}
 
 FB en Proximus bespreken samen de situatie op donderdag 6 augustus om de mogelijke risico's in te schatten en scenario's voor te stellen. Informatie over de vulnerability kan teruggevonden worden op \href{https://www.zdnet.com/article/hacker-leaks-passwords-for-900-enterprise-vpn-servers/}{Zdnet}. Specifiek werd wereldwijd gebruik gemaakt van vulnerability CVE-2019-11510 (Unauthenticated remote attacker with network access via HTTPS can send a specially crafted URI to perform an arbitrary file reading vulnerability) om toegang te krijgen tot Pulse Secure omgevingen. Volgens de huidige informatie werden zo'n 900 systemen gecompromiteerd in de periode van 24 juni tot 8 juli 2020. Door deze exploitatie werden logs geëxporteerd.
 
@@ -246,7 +289,7 @@ Daarom is forensisch onderzoek van de omgeving door specialisten aangewezen.
 De VPN omgeving wordt enkel gebruikt voor OOB dus gewone gebruikers zouden geen hinder mogen ondervinden van de uitschakeling.
 
 \subsection{Te nemen acties}
-\label{sec:orgb96bb89}
+\label{sec:org5772b9c}
 \begin{itemize}
 \item Pulse Secure uitschakelen:
 \begin{itemize}
@@ -267,7 +310,7 @@ De VPN omgeving wordt enkel gebruikt voor OOB dus gewone gebruikers zouden geen 
 \end{itemize}
 
 \subsection{Communicatie}
-\label{sec:org99bacf9}
+\label{sec:org6e9c151}
 
 \begin{itemize}
 \item Koen Algoed en David Van Herreweghe inlichten. Is gedaan door PVDN
@@ -278,7 +321,7 @@ De VPN omgeving wordt enkel gebruikt voor OOB dus gewone gebruikers zouden geen 
 \end{itemize}
 
 \subsection{Open vragen}
-\label{sec:org43558b8}
+\label{sec:orgd89c170}
 \begin{itemize}
 \item Welke VLAN's zijn toegankelijk vanaf Pulse Secure?
 \item Heeft SSH nog andere toegangen?
