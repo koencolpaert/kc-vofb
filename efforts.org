@@ -1,11 +1,15 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-10 Mon 11:05]
+#+CAPTION: Clock summary at [2020-08-18 Tue 11:38]
 | Headline                       |    Time |      |
 |--------------------------------+---------+------|
-| *Total time*                   | *16:17* |      |
+| *Total time*                   | *18:52* |      |
 |--------------------------------+---------+------|
+| <2020-08-18 Tue>               |    2:35 |      |
+| \_  Certificaatbeheer          |         | 1:00 |
+| \_  Overleg staf               |         | 0:38 |
+| \_  Mail backlog               |         | 0:57 |
 | <2020-08-10 Mon>               |    2:21 |      |
 | \_  Pulse Secure opkuis        |         | 2:21 |
 | <2020-08-06 Thu>               |    1:14 |      |
@@ -26,6 +30,19 @@ KC Efforts
 
 
 Efforts Augustus 2020
+* <2020-08-18 Tue>
+** Certificaatbeheer
+:LOGBOOK:
+CLOCK: [2020-08-18 Tue 10:38]--[2020-08-18 Tue 11:38] =>  1:00
+:END:
+** Overleg staf
+:LOGBOOK:
+CLOCK: [2020-08-18 Tue 10:00]--[2020-08-18 Tue 10:38] =>  0:38
+:END:
+** Mail backlog
+:LOGBOOK:
+CLOCK: [2020-08-18 Tue 09:03]--[2020-08-18 Tue 10:00] =>  0:57
+:END:
 * <2020-08-10 Mon>
 ** Pulse Secure opkuis
 :LOGBOOK:
@@ -45,9 +62,6 @@ CLOCK: [2020-08-06 Thu 13:26]--[2020-08-06 Thu 13:27] =>  0:01
 ** Vervanging AH
 :PROPERTIES:
 :ORDERED:  t
-:END:
-:LOGBOOK:
-CLOCK: [2020-08-06 Thu 09:14]
 :END:
 * <2020-08-05 Wed>
 ** Ad hoc/mail backlog

@@ -2,6 +2,23 @@
 #+AUTHOR: Koen Colpaert
 #+OPTIONS: toc:nil
 
+* <2020-08-18 Tue>
+** Aanwezigen
+| Naam                       | Dienst   |
+|----------------------------+----------|
+| Koen Colpaert              | Staf     |
+| Ward Bemelmans             | Staf     |
+| Aimad Soultani             | Netwerk  |
+| Frederik Van Den Noortgate | Helpdesk |
+
+** Overlopen issuelijst
+- Pprioriteit wordt gegeven aan de tickets van An. Daarvoor zijn de nodige acties lopende met Wouter.
+- Voor de fintest is er nog bijkomend overleg met Patrick
+- Vernieuwing van de tokens is lopende; Frederik stuurt tickets consequent naar Bram.
+- Zoom: Aimad plant een nieuwe test voor de objects om Zoom te kunnen blokkeren. Wordt op de CAB gebracht en de nodige communicatie naar business wordt voorzien. Downtime wordt geschat op 20-tal minuten.
+- Kevin Mertens moet aangeven waarom hij toegang wil tot proxy en firewall, ook al is het voor read-access.
+
+
 * <2020-08-06 Thu>
 ** Aanwezigen
 | Naam                       | Dienst   |
