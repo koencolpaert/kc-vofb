@@ -17,6 +17,9 @@ KC Efforts
 Efforts september 2020
 * <2020-09-01 Tue>
 ** Gartner EITL call
+:LOGBOOK:
+CLOCK: [2020-09-01 Tue 14:31]--[2020-09-01 Tue 16:55] =>  2:24
+:END:
 ** Projectgroep Teams
 :LOGBOOK:
 CLOCK: [2020-09-01 Tue 10:29]--[2020-09-01 Tue 11:54] =>  1:25
