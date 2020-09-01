@@ -6,3 +6,7 @@ DEADLINE: <2020-08-07 Fri>
 ** WAIT Werklastmeting op interdiensten :staf:
 ** DONE Wonder goedkeuring TJ :staf:ARCHIVE:
 SCHEDULED: <2020-08-06 Thu>
+** TODO Inplannen demo HB+ voor Netwerk/security op interdiensten
+DEADLINE: <2020-09-17 Thu>
+** TODO Register invullen voor breach
+SCHEDULED: <2020-08-21 Fri>

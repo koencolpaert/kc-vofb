@@ -1,105 +1,45 @@
 KC Efforts
 
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-18 Tue 11:38]
-| Headline                       |    Time |      |
-|--------------------------------+---------+------|
-| *Total time*                   | *18:52* |      |
-|--------------------------------+---------+------|
-| <2020-08-18 Tue>               |    2:35 |      |
-| \_  Certificaatbeheer          |         | 1:00 |
-| \_  Overleg staf               |         | 0:38 |
-| \_  Mail backlog               |         | 0:57 |
-| <2020-08-10 Mon>               |    2:21 |      |
-| \_  Pulse Secure opkuis        |         | 2:21 |
-| <2020-08-06 Thu>               |    1:14 |      |
-| \_  Netwerkoverleg             |         | 1:14 |
-| <2020-08-05 Wed>               |    2:03 |      |
-| \_  Ad hoc/mail backlog        |         | 2:03 |
-| <2020-08-04 Tue>               |    4:26 |      |
-| \_  Gartrner EITL call         |         | 1:00 |
-| \_  Gartner strategiedoc       |         | 2:55 |
-| \_  Vervanging AH              |         | 0:31 |
-| <2020-08-03 Mon>               |    6:13 |      |
-| \_  Vervanging AH              |         | 1:36 |
-| \_  VFP Matomo                 |         | 0:33 |
-| \_  Privacy Shield en VS Cloud |         | 0:41 |
-| \_  CISO Projectkantoor        |         | 1:52 |
-| \_  Ad hoc taken               |         | 1:31 |
+#+CAPTION: Clock summary at [2020-08-31 Mon 16:10]
+| Headline                     | Time   |      |
+|------------------------------+--------+------|
+| *Total time*                 | *4:22* |      |
+|------------------------------+--------+------|
+| <2020-08-31 Mon>             | 4:22   |      |
+| \_  Pulse Secure eindrapport |        | 1:59 |
+| \_  daily-weekly-monthly     |        | 0:39 |
+| \_  Prep interdiensten       |        | 1:16 |
+| \_  Mail backlog             |        | 0:28 |
 #+END:
 
 
-Efforts Augustus 2020
-* <2020-08-18 Tue>
-** Certificaatbeheer
+Efforts september 2020
+* <2020-09-01 Tue>
+** Gartner EITL call
+** Projectgroep Teams
 :LOGBOOK:
-CLOCK: [2020-08-18 Tue 10:38]--[2020-08-18 Tue 11:38] =>  1:00
+CLOCK: [2020-09-01 Tue 10:29]--[2020-09-01 Tue 11:54] =>  1:25
 :END:
-** Overleg staf
+** Ad-hoc taken
 :LOGBOOK:
-CLOCK: [2020-08-18 Tue 10:00]--[2020-08-18 Tue 10:38] =>  0:38
+CLOCK: [2020-09-01 Tue 13:00]--[2020-09-01 Tue 13:43] =>  0:43
+CLOCK: [2020-09-01 Tue 09:50]--[2020-09-01 Tue 10:26] =>  0:36
+:END:
+* <2020-08-31 Mon>
+** Pulse Secure eindrapport
+:LOGBOOK:
+CLOCK: [2020-08-31 Mon 14:10]--[2020-08-31 Mon 16:09] =>  1:59
+:END:
+** daily-weekly-monthly
+:LOGBOOK:
+CLOCK: [2020-08-31 Mon 09:08]--[2020-08-31 Mon 09:47] =>  0:39
+:END:
+** Prep interdiensten
+:LOGBOOK:
+CLOCK: [2020-08-31 Mon 10:27]--[2020-08-31 Mon 11:43] =>  1:16
 :END:
 ** Mail backlog
 :LOGBOOK:
-CLOCK: [2020-08-18 Tue 09:03]--[2020-08-18 Tue 10:00] =>  0:57
-:END:
-* <2020-08-10 Mon>
-** Pulse Secure opkuis
-:LOGBOOK:
-CLOCK: [2020-08-10 Mon 08:43]--[2020-08-10 Mon 11:04] =>  2:21
-:END:
-* <2020-08-07 Fri>
-** Pulse Secure breach
-* <2020-08-06 Thu>
-** Netwerkoverleg
-:PROPERTIES:
-:ORDERED:  t
-:END:
-:LOGBOOK:
-CLOCK: [2020-08-06 Thu 13:27]--[2020-08-06 Thu 14:40] =>  1:13
-CLOCK: [2020-08-06 Thu 13:26]--[2020-08-06 Thu 13:27] =>  0:01
-:END:
-** Vervanging AH
-:PROPERTIES:
-:ORDERED:  t
-:END:
-* <2020-08-05 Wed>
-** Ad hoc/mail backlog
-:LOGBOOK:
-CLOCK: [2020-08-05 Wed 09:40]--[2020-08-05 Wed 11:28] =>  1:48
-CLOCK: [2020-08-05 Wed 09:11]--[2020-08-05 Wed 09:26] =>  0:15
-:END:
-* <2020-08-04 Tue>
-** Gartrner EITL call
-:LOGBOOK:
-CLOCK: [2020-08-04 Tue 14:29]--[2020-08-04 Tue 15:29] =>  1:00
-:END:
-** Gartner strategiedoc
-:LOGBOOK:
-CLOCK: [2020-08-04 Tue 09:39]--[2020-08-04 Tue 12:34] =>  2:55
-:END:
-** Vervanging AH
-:LOGBOOK:
-CLOCK: [2020-08-04 Tue 09:08]--[2020-08-04 Tue 09:39] =>  0:31
-:END:
-* <2020-08-03 Mon>
-** Vervanging AH
-:LOGBOOK:
-CLOCK: [2020-08-03 Mon 09:15]--[2020-08-03 Mon 10:51] =>  1:36
-:END:
-** VFP Matomo
-:LOGBOOK:
-CLOCK: [2020-08-03 Mon 11:05]--[2020-08-03 Mon 11:38] =>  0:33
-:END:
-** Privacy Shield en VS Cloud
-:LOGBOOK:
-CLOCK: [2020-08-03 Mon 11:38]--[2020-08-03 Mon 12:19] =>  0:41
-:END:
-** CISO Projectkantoor
-:LOGBOOK:
-CLOCK: [2020-08-03 Mon 13:48]--[2020-08-03 Mon 15:40] =>  1:52
-:END:
-** Ad hoc taken
-:LOGBOOK:
-CLOCK: [2020-08-03 Mon 15:41]--[2020-08-03 Mon 17:12] =>  1:31
+CLOCK: [2020-08-31 Mon 09:47]--[2020-08-31 Mon 10:15] =>  0:28
 :END:
