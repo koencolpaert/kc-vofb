@@ -1,0 +1,179 @@
+\documentclass[11pt,]{article}
+\usepackage[margin=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} 
+\usepackage{longtable,booktabs}
+
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+\titleformat*{\subsubsection}{\normalsize\itshape}
+
+\usepackage{titling}
+\setlength{\droptitle}{-.25cm}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+%\setlength{\emergencystretch}{3em}  % prevent overfull lines 
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.0pt} 
+\lhead{}
+\chead{}
+\rhead{\footnotesize 185901: Upgrade Pulse Secure}
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\fancypagestyle{firststyle}
+{
+\renewcommand{\headrulewidth}{0pt}%
+   \fancyhf{}
+   \fancyfoot[C]{\small \thepage/\pageref*{LastPage}}
+}
+
+%\def\labelitemi{--}
+%\usepackage{enumitem}
+%\setitemize[0]{leftmargin=25pt}
+%\setenumerate[0]{leftmargin=25pt}
+
+
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={ ()},
+             pdfkeywords = {},  
+            pdftitle={185901: Upgrade Pulse Secure},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+\setcounter{secnumdepth}{0}
+
+
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+
+
+
+\usepackage{setspace}
+
+\title{185901: Upgrade Pulse Secure}
+\author{SOC}
+\date{02-09-2020}
+
+
+\begin{document}  
+
+		\maketitle
+		
+	
+		\thispagestyle{firststyle}
+
+%	\thispagestyle{empty}
+
+
+	\noindent \begin{tabular*}{\textwidth}{ @{\extracolsep{\fill}} lr @{\extracolsep{\fill}}}
+
+
+\texttt{\href{mailto:koen.colpaert@vlaanderen.be}{\nolinkurl{koen.colpaert@vlaanderen.be}}} & \texttt{\href{mailto:aimad.soultani@vlaanderen.be}{\nolinkurl{aimad.soultani@vlaanderen.be}}}\\
+Security Officer  &  Network Consultant\\
+0475 93 73 45  & 0471 99 20 74 \\
+	&  \\
+	\hline
+	\end{tabular*}
+	
+\vspace{2mm}
+	
+
+
+\hypertarget{Probleemstelling}{%
+\section{Probleemstelling}\label{Probleemstelling}}
+
+Er zijn verschillende vulnerabilities bekend gemaakt in de bestaande versies van Pulse Connect Secure en Pulse Policy Secure. Het belangrijkste risico staat bekend als CVE-2020-8218 en geeft de mogelijkheid via code-injectie in Pulse Connect Secure <9.1R8 een URI te maken om een willekeurige code-uitvoering uit te voeren via de beheerde webinterface. Dit veronderstelt wel een authenticated user.   
+
+\hypertarget{Oplossing}{%
+\section{Oplossing}\label{Oplossing}}
+
+\begin{itemize}
+\item Upgrade naar versie 9.1R8
+\item Upgrade desktop client is niet nodig
+\end{itemize}
+
+\hypertarget{Verdere informatie}{%
+\section{Verdere informatie}\label{Verdere informatie}}
+
+\begin{itemize}
+\item \href{https://www.security.nl/posting/669116/Beveiligingslek+in+Pulse+Secure+VPN+maakt+uitvoeren+code+mogelijk}{Security.Nl}
+\item \href{https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44516}{Pulse Secure}
+\item \href{https://nvd.nist.gov/vuln/detail/CVE-2020-8218}{NVD}
+\end{itemize}
+
+\hypertarget{Planning}{%
+\section{Planning}\label{Planning}}
+\textbf {Datum:} 18/09/2020\\
+\textbf{Duur:} 2 uur
+
+\hypertarget{Communicatie}{%
+\section{Communicatie}\label{Communicatie}}
+CAB VFP en Orafin
+
+
+
+\end{document}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother
