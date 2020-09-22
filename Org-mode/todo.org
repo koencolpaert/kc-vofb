@@ -1,5 +1,7 @@
 * Te Doen
 *** TODO Security strategie voor Hugues
     DEADLINE: <2020-09-24 Thu>
-*** TODO Lezen nota Teams
-    DEADLINE: <2020-09-21 Mon>
+*** DONE Lezen nota Teams :ARCHIVE:
+    DEADLINE: <2020-09-22 Tue>
+*** TODO MS Vouchers
+SCHEDULED: <2020-09-23 Wed>
